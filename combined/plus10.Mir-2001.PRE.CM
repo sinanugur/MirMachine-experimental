@@ -10,6 +10,7 @@ CONS     yes
 MAP      yes
 DATE     Fri Feb 27 09:45:54 2026
 COM      [1] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmbuild -O tmp.Mir-2001.PRE.cmbuild.sto plus10.Mir-2001.PRE.CM plus10.Mir-2001.PRE.cmbuild.sto
+COM      [2] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmcalibrate --nonull3 --cpu 20 plus10.Mir-2001.PRE.CM
 PBEGIN   0.05
 PEND     0.05
 WBETA    1e-07
@@ -23,6 +24,10 @@ EFFN     18.319702
 CKSUM    3537453306
 NULL     0.000  0.000  0.000  0.000 
 EFP7GF   -16.2699 0.71923
+ECMLC    0.64797    -5.92679     3.01054     1600000      392841  0.003055
+ECMGC    0.38802   -17.30577    -3.25830     1600000       93172  0.004293
+ECMLI    0.59935    -5.42478     3.64200     1600000      274931  0.004365
+ECMGI    0.41422   -11.66882     0.39100     1600000       59097  0.006769
 CM
                                              [ ROOT    0 ]      -      - - - - -
      S     0    -1 0     1     4     1     1 14563 34582  -9.264 -10.509  -0.015  -6.963                 
