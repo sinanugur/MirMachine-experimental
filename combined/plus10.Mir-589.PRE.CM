@@ -8,9 +8,9 @@ ALPH     RNA
 RF       no
 CONS     yes
 MAP      yes
-DATE     Tue Mar  3 05:10:31 2026
+DATE     Mon Mar  9 04:32:57 2026
 COM      [1] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmbuild -O tmp.Mir-589.PRE.cmbuild.sto plus10.Mir-589.PRE.CM plus10.Mir-589.PRE.cmbuild.sto
-COM      [2] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmcalibrate --nonull3 --cpu 20 plus10.Mir-589.PRE.CM
+COM      [2] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmcalibrate --nonull3 -L 0.2 --beta 1E-4 --cpu 20 plus10.Mir-589.PRE.CM
 PBEGIN   0.05
 PEND     0.05
 WBETA    1e-07
@@ -24,10 +24,10 @@ EFFN     11.000000
 CKSUM    569408871
 NULL     0.000  0.000  0.000  0.000 
 EFP7GF   -27.2674 0.70653
-ECMLC    0.04034  -160.90717   -13.52079     1600000      458322  0.002618
-ECMGC    0.01350   -78.37046   -41.05471     1600000         662  0.604230
-ECMLI    0.03670  -175.45868   -13.55300     1600000      456869  0.002627
-ECMGI    0.01687   -40.86193    -9.75400     1600000         676  0.591716
+ECMLC    0.03365  -141.64810   -13.58251      200000       11162  0.013438
+ECMGC    0.02097   -23.10630    -0.69594      200000          80  0.625000
+ECMLI    0.03051  -155.06498   -13.60600      200000       11228  0.013359
+ECMGI    0.02686     4.92002    24.23700      200000          84  0.595238
 CM
                                              [ ROOT    0 ]      -      - - - - -
      S     0    -1 0     1     4     1     1  2083  2110  -8.615  -9.861  -0.024  -6.314                 
@@ -8268,7 +8268,7 @@ MM    no
 CONS  yes
 CS    yes
 MAP   yes
-DATE  Tue Mar  3 05:10:32 2026
+DATE  Mon Mar  9 04:32:58 2026
 COM   [1] /cluster/work/projects/ec56/projects_work/mirmachine/infernal112/infernal-1.1.2//src/cmbuild -O tmp.Mir-589.PRE.cmbuild.sto plus10.Mir-589.PRE.CM plus10.Mir-589.PRE.cmbuild.sto
 NSEQ  11
 EFFN  3.364990
